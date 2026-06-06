@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract portfolio portrait</title>
+  <desc id="desc">A modern abstract portrait-style graphic with interface details.</desc>
+  <rect width="640" height="800" fill="#0f172a"/>
+  <path d="M0 610c120-82 216-116 326-95 129 25 193 110 314 57v228H0Z" fill="#0d9488"/>
+  <path d="M487 0c-54 108-38 190 46 270 42 40 76 94 73 168-3 76-56 134-120 158-95 36-208-4-265-86-52-75-54-178-5-257C269 168 370 141 410 42c6-15 12-29 18-42Z" fill="#f59e0b" opacity=".86"/>
+  <circle cx="318" cy="290" r="150" fill="#f8fafc"/>
+  <path d="M216 306c38-70 102-101 191-92 32 44 43 100 30 168-39 42-90 60-154 54-52-41-75-84-67-130Z" fill="#14b8a6"/>
+  <path d="M232 220c18-85 98-132 188-100 57 20 98 70 110 132-89-28-173-24-251 12-27 13-47 21-60 23-1-21 3-43 13-67Z" fill="#111827"/>
+  <rect x="70" y="72" width="160" height="92" rx="8" fill="#ffffff" opacity=".92"/>
+  <rect x="92" y="98" width="94" height="10" rx="5" fill="#0d9488"/>
+  <rect x="92" y="124" width="116" height="10" rx="5" fill="#334155" opacity=".45"/>
+  <rect x="410" y="588" width="152" height="96" rx="8" fill="#ffffff" opacity=".94"/>
+  <circle cx="448" cy="636" r="20" fill="#e11d48"/>
+  <rect x="480" y="620" width="52" height="8" rx="4" fill="#334155" opacity=".5"/>
+  <rect x="480" y="642" width="36" height="8" rx="4" fill="#334155" opacity=".35"/>
+</svg>

@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --primary: 174 72% 32%;
+  --primary-foreground: 180 100% 98%;
+  --secondary: 32 84% 56%;
+  --secondary-foreground: 24 10% 10%;
+  --muted: 210 25% 92%;
+  --muted-foreground: 217 11% 38%;
+  --accent: 340 77% 54%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 214 22% 84%;
+  --input: 214 22% 84%;
+  --ring: 174 72% 32%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 220 26% 8%;
+  --foreground: 210 40% 96%;
+  --card: 220 22% 12%;
+  --card-foreground: 210 40% 96%;
+  --primary: 173 65% 44%;
+  --primary-foreground: 180 100% 7%;
+  --secondary: 36 88% 61%;
+  --secondary-foreground: 24 10% 10%;
+  --muted: 218 18% 18%;
+  --muted-foreground: 215 18% 72%;
+  --accent: 343 82% 62%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 218 17% 24%;
+  --input: 218 17% 24%;
+  --ring: 173 65% 44%;
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+::selection {
+  background: hsl(var(--primary) / 0.22);
+}
+
+.noise {
+  background-image: radial-gradient(circle at 1px 1px, hsl(var(--foreground) / 0.08) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.prose {
+  @apply max-w-none text-foreground;
+}
+
+.prose h2 {
+  @apply mt-10 text-2xl font-semibold;
+}
+
+.prose p {
+  @apply mt-4 leading-8 text-muted-foreground;
+}
+
+.prose ul {
+  @apply mt-4 list-disc space-y-2 pl-6 text-muted-foreground;
+}
+
+.prose a {
+  @apply text-primary underline-offset-4 hover:underline;
+}
